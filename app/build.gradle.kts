@@ -40,4 +40,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    //noinspection UseTomlInstead
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    //noinspection UseTomlInstead
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
+
 }

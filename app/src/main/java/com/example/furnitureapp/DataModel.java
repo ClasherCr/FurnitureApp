@@ -1,0 +1,53 @@
+package com.example.furnitureapp;
+
+public class DataModel {
+    String name;
+    String version;
+
+    int _id;
+    int image;
+
+    public DataModel(String name, String version, int _id, int image) {
+        this.name = name;
+        this.version = version;
+        this._id = _id;
+        this.image = image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
+
+    public int get_id() {
+        return _id;
+    }
+
+    public void set_id(int _id) {
+        this._id = _id;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public DataModel() {
+    }
+}
+
+
